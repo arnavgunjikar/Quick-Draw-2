@@ -1,0 +1,43 @@
+body
+{
+    background-color: lime;
+}
+
+h1
+{
+    color: blue;
+    background-color: snow;
+}
+
+#show_sketch
+{
+    float: right;
+    margin-top: 2.5px;
+}
+
+canvas
+{
+    border: 5px solid snow;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 140px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from {box-shadow: 1px 1px 80px Yellow;}
+    to {box-shadow: 1px 1px 80px mediumturquoise;}
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#timer
+{
+    margin-top: 1px;
+}
